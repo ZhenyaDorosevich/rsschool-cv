@@ -1,7 +1,7 @@
 # Yauheniya Nazarava   
 ## Junior Front-end developer   
 ### Contacts   
-* **Phone:** 780728999
+* **Phone:** +48 780 728 999
 * **E-mail:** zhenya4ka007@gmail.com
 * **GitHub:** [ZhenyaDorosevich](https://github.com/ZhenyaDorosevich)
 * **Date of birth:** 25.08.1995
