@@ -5,7 +5,7 @@
 * **E-mail:** zhenya4ka007@gmail.com
 * **GitHub:** [ZhenyaDorosevich](https://github.com/ZhenyaDorosevich)
 * **Date of birth:** 25.08.1995
-* **Location:** Poznań
+* **Location:** Poznań, Poland
 ### About Me
 Castomer care specialist with over 5 years of experience. Highly organized and detail-oriented manager. Easily solve technical problems. I am responsible, stress-resistant, sociable, honest. Extremely motivated for career change goal.  
 Hobbies: reading, sewing, healthy lifestyle, animal care, charity work.
