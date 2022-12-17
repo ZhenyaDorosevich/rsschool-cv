@@ -1,1 +1,124 @@
-html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Resume</title>
+</head>
+<body>
+<!--info-->
+   <div class="info">
+    <!--info content-->
+   <div class="infocontent"> 
+    <!--about user-->
+    <header>       
+        <h1 class="about-name">Yauheniya Nazarava</h1>
+        <h2 class="about-position">Junior Front-end developer</h2>
+        <h3 class="title">About me</h3>
+        <p class="about-description">Castomer care specialist with over 5 years of experience. Highly organized and detail-oriented manager. Easily solve technical problems. I am responsible, stress-resistant, sociable, honest. Extremely motivated for career change goal.<br>
+            Hobbies: reading, sewing, healthy lifestyle, animal care, charity work. </p>
+    </header>
+    <!--projects-->
+    <main>
+   <div class="projects">
+    <h3 class="title">Projects</h3>
+<ol class="projects-list">
+    <li class="projects-item"> <span class="project"><a href="https://zhenyadorosevich.github.io/cars-app/" class="project-link">Cars-app</a><span class="project-bracket"> [ </span>HTML5, CSS3, Angular <span class="project-bracket"> ] </span> </span></li>
+    <li class="projects-item"><span class="project"><a href="https://github.com/ZhenyaDorosevich/second-maket.git" class="project-link">NewProvidens</a><span class="project-bracket"> [ </span> HTML5, CSS3, JavaScript <span class="project-bracket"> ] </span></span></li>
+    <li class="projects-item"><span class="project"><a href="https://github.com/ZhenyaDorosevich/maket-bootstrap.git" class="project-link">Waxom</a><span class="project-bracket"> [ </span> Bootstrap <span class="project-bracket"> ] </span></span></li>
+</ol>
+   </div>
+   <div class="code">
+    <h3 class="title">Code Example</h3>
+    <pre>
+        <code>
+const email = document.getElementById("mail");
+    email.addEventListener("input", function (event) {
+        if (email.validity.typeMismatch) {
+            email.setCustomValidity("");
+            } else {
+            email.setCustomValidity("");
+            }
+        }); 
+        </code>
+    </pre>
+   </div>
+   <!--work-->
+   <div class="work">
+    <h3 class="title">Work Experience</h3>
+    <!--company -->
+    <div>
+        <h4 class="work-position">Castomer care specialist <span class ="organization" >Open Contact </span></h4>
+        <p class="period">November 2017 - up to now   <span class="line">|</span>Minsk</p>
+        <ul class="work-list">
+<li class="work-list-item">Worked with documents</li>
+<li class="work-list-item">Communicated with clients by phone or mail </li>
+        </ul>
+    </div>
+    </div>
+    <!--education-->
+    <div class="education">
+        <h3 class="title">Education</h3>
+        <h4 class="universitet">Belarusian State University</h4>
+        <h5 class="spec">Management</h5>
+        <p class="period">September 2013 - June 2017   <span class="line">|</span>Minsk</p>
+        <h4 class="universitet">StormNet</h4>
+        <h5 class="spec">HTML,CSS, Javascript</h5>
+        <p class="period">September 2019 - December 2019   <span class="line">|</span>Minsk</p>
+    </div>
+</main>
+   </div>
+   <!--sidebar-->
+   <aside class="sidebar">
+    <img src="img/iam.jpg" alt="my photo" class="photo">
+    <!--contacts-->
+    <div class="contacts">
+        <h3 class="sidebar-title">Contacts</h3>
+        <nav>
+            <p> <span class="contact-type">Phone:</span><a href="tel:+48780728999" class="contact-link">+48 780 728 999</a> </p>
+            <p> <span class="contact-type">E-mail:</span><a href="mailto:zhenya4ka007@gmail.com" class="contact-link">Zhenya4ka007@gmail.com</a> </p>
+            <p> <span class="contact-type">GitHub:</span><a href="https://github.com/ZhenyaDorosevich" class="contact-link">ZhenyaDorosevich</a> </p>
+        </nav>
+    </div>
+    <!--tech skills-->
+    <div class="skills">
+        <h3 class="sidebar-title">Skills</h3>
+        <ul class="skills-list">
+            <li class="skills-item"><span class="skills-text">HTML5</span></li>
+            <li class="skills-item"><span class="skills-text">CSS3</span></li>
+            <li class="skills-item"><span class="skills-text">GIT</span></li>
+            <li class="skills-item"><span class="skills-text">Bootstrap</span></li>
+            <li class="skills-item"><span class="skills-text">JavaScript</span></li>
+            <li class="skills-item"><span class="skills-text">Flexbox</span></li>
+            <li class="skills-item"><span class="skills-text">Photoshop/Figma</span></li>
+        </ul>
+        </div>
+    <div class="more">
+        <h3 class="sidebar-title">More</h3>
+        <div>
+            <p> <span class="contact-type">Date of birth:</span><span class="contact-link">25.08.1995</span></p>
+            <p> <span class="contact-type">Location:</span> <span class="contact-link">Poznań, Poland </span></p>
+            <p> <span class="contact-type">Languages:</span> <span class="contact-link">English <i>(A2)</i>, Polish <i>(A2)</i> </span></p>
+        </div>
+    </div>
+    <footer>
+        <div class="all">
+        <div class="git">
+        <a href="https://github.com/ZhenyaDorosevich"><img src="img/logo1.svg" alt="logo"> </a>
+        <a href="https://github.com/ZhenyaDorosevich" class="contact-link">Me on GitHub</a>
+    </div>
+        <div class="rs">
+    <a href="https://rs.school/js/"><img src="img/rs.svg" alt="rsschool"></a>
+    <p>2022</p>
+    </div>
+    </div>
+    </footer>
+   </aside>
+   </div>
+</body>
+</html>
